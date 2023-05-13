@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  hello-app:
+    build: .
+    container_name: hello-app
+    ports:
+      - target: 8000
+        published: 8000
